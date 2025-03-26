@@ -1,0 +1,153 @@
+*
+{
+    margin: auto;
+    padding: auto; 
+     
+
+}
+.container
+{
+    height: 738px;
+    background: linear-gradient(300deg,rgb(184, 218, 243),rgb(239, 170, 243));
+}
+.container .con2
+{
+    
+    background-color: linear-gradient(rgb(184,218,241,));
+    padding-top: 100px;
+    padding-left: 400px;
+    
+
+}
+.container .content
+{
+    border: 2px solid rgba(255,255,255,0.05);
+    margin:2%;
+    width: 708px;
+    margin-left: 25%;
+    height: 570px;
+    border-radius: 10px;
+    right: 60%;
+    background: rgba(255,255,255,0.08);
+    pointer-events: visiblePainted;
+    
+
+}
+.container .menu1
+
+{
+    color: black;
+    margin:60px;
+    text-decoration: none;
+    font-size: x-large;
+    pointer-events: visiblePainted;
+    
+} 
+.container .menu2
+{
+    margin: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    pointer-events: visiblePainted;
+}
+.container .menu3
+{
+    margin:60px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    pointer-events: visiblePainted;
+}
+.container .menu4
+{
+    margin: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    pointer-events: visiblePainted;
+}
+
+.menu1:hover 
+{
+  
+    text-decoration: underline;
+    color: rgb(255,255,255,0.4);
+    border-radius: 3px;
+
+}
+.menu2:hover
+{
+     text-decoration: underline;
+     width: 300px;
+     color: rgb(157, 123, 189);
+}
+.menu3:hover 
+{
+    text-decoration: underline;
+    width: 300px;
+    color: rgb(157, 123, 189);
+    
+
+}
+.menu4:hover
+{
+    text-decoration: underline;
+    width: 300px;
+    color: rgb(157, 123, 189);
+
+
+}
+
+.con2 .content
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.content .verticalimages
+{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 80px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 60px;
+    
+}
+.i1
+{
+    height: 100px;
+    width: 150px;
+    border: 10px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+.i2
+{
+    height: 100px;
+    border: 10px solid rgba(255,255,255,0.2);
+}
+.i3
+{
+    width: 150px;
+    border: 10px solid rgba(255,255,255,0.2);
+    
+}
+
+
+.content .horizontalimages
+{
+
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.horizontalimages img
+{
+    height: 200px;
+    border: 15px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    
+
+}
